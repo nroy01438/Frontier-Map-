@@ -58,6 +58,7 @@ export interface ExpeditionDTO {
   id: string;
   territoryId: string;
   territoryLabel: string;
+  genres: string[];
   spotifyPlaylistId: string;
   spotifyPlaylistUrl: string;
   mock: boolean;

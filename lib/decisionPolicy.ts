@@ -109,6 +109,48 @@ async function handleRetreat(userId: string, expedition: Expedition, engagement:
   });
 }
 
+export class ExpeditionNotActiveError extends Error {
+  constructor() {
+    super("Expedition not found or is no longer active.");
+    this.name = "ExpeditionNotActiveError";
+  }
+}
+
+/**
+ * Manual demo/UI override: forces an active expedition straight to claimed or retreated,
+ * bypassing the engagement heuristic (which depends on simulated or real listening activity
+ * that may not have happened yet). Uses synthetic stats consistent with the chosen decision
+ * so the generated rationale text still reads naturally.
+ */
+export async function manuallyResolveExpedition(
+  userId: string,
+  expeditionId: string,
+  decision: "claimed" | "retreated",
+): Promise<void> {
+  const expedition = await prisma.expedition.findFirst({ where: { id: expeditionId, userId, status: "active" } });
+  if (!expedition) throw new ExpeditionNotActiveError();
+
+  const engagement: EngagementResult =
+    decision === "claimed"
+      ? { completionRate: 1, skipRate: 0, saveCount: 1, playedTrackCount: expedition.trackIds.length }
+      : { completionRate: 0, skipRate: 1, saveCount: 0, playedTrackCount: expedition.trackIds.length };
+
+  await prisma.expedition.update({
+    where: { id: expedition.id },
+    data: {
+      completionRate: engagement.completionRate,
+      skipRate: engagement.skipRate,
+      saveCount: engagement.saveCount,
+    },
+  });
+
+  if (decision === "claimed") {
+    await handleClaim(userId, expedition, engagement);
+  } else {
+    await handleRetreat(userId, expedition, engagement);
+  }
+}
+
 /** Polls and resolves every active expedition for a user (in practice, at most one — PRD 6.4 constraint). */
 export async function pollAndResolveActiveExpeditions(userId: string): Promise<(Decision | "pending")[]> {
   const activeExpeditions = await prisma.expedition.findMany({ where: { userId, status: "active" } });

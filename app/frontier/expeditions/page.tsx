@@ -21,6 +21,7 @@ export default function ExpeditionsPage() {
   const [expeditions, setExpeditions] = useState<ExpeditionDTO[] | null>(null);
   const [running, setRunning] = useState(false);
   const [polling, setPolling] = useState(false);
+  const [resolvingId, setResolvingId] = useState<string | null>(null);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -51,7 +52,7 @@ export default function ExpeditionsPage() {
       const isMock = (data.expedition?.spotifyPlaylistId ?? "").startsWith("mock-playlist-");
       setMessage(
         isMock
-          ? "New expedition launched (demo mode — no real playlist). Click \"Check Engagement\" to resolve it."
+          ? "New expedition launched (demo mode — no real playlist). Use \"Check Engagement\" to simulate listening, or Claim/Retreat below to decide directly."
           : "New expedition launched — check your Spotify playlists.",
       );
       await load();
@@ -81,6 +82,27 @@ export default function ExpeditionsPage() {
       setError(e instanceof Error ? e.message : "Something went wrong");
     } finally {
       setPolling(false);
+    }
+  };
+
+  const handleManualResolve = async (expeditionId: string, decision: "claimed" | "retreated") => {
+    setResolvingId(expeditionId);
+    setError(null);
+    setMessage(null);
+    try {
+      const res = await fetch(`/api/expeditions/${expeditionId}/resolve`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ decision }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Failed to resolve expedition");
+      setMessage(decision === "claimed" ? DECISION_MESSAGE.claimed : DECISION_MESSAGE.retreated);
+      await load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Something went wrong");
+    } finally {
+      setResolvingId(null);
     }
   };
 
@@ -138,15 +160,35 @@ export default function ExpeditionsPage() {
           <div key={e.id} className="rounded-2xl border border-border bg-surface p-5">
             <div className="flex items-start justify-between gap-4">
               <div>
-                <div className="flex items-center gap-2">
+                <div className="flex flex-wrap items-center gap-2">
                   <h2 className="text-lg font-semibold">{e.territoryLabel}</h2>
                   <span
                     className={`rounded-full border px-2.5 py-0.5 text-xs font-medium capitalize ${STATUS_STYLES[e.status]}`}
                   >
                     {e.status}
                   </span>
+                  {e.status === "active" && (
+                    <span
+                      title="This expedition is testing a genre outside your existing territories."
+                      className="rounded-full border border-accent/30 bg-accent/10 px-2.5 py-0.5 text-xs font-medium text-accent"
+                    >
+                      New genre — not yet in your map
+                    </span>
+                  )}
                 </div>
-                <p className="mt-1 text-xs text-muted">
+                {e.genres.length > 0 && (
+                  <div className="mt-1.5 flex flex-wrap gap-1.5">
+                    {e.genres.map((g) => (
+                      <span
+                        key={g}
+                        className="rounded-full bg-surface-raised px-2 py-0.5 text-[11px] text-muted"
+                      >
+                        {g}
+                      </span>
+                    ))}
+                  </div>
+                )}
+                <p className="mt-1.5 text-xs text-muted">
                   Launched {new Date(e.createdAt).toLocaleDateString()}
                   {e.resolvedAt && ` · Resolved ${new Date(e.resolvedAt).toLocaleDateString()}`}
                 </p>
@@ -183,6 +225,26 @@ export default function ExpeditionsPage() {
                 {e.completionRate !== null && <span>Completion: {Math.round(e.completionRate * 100)}%</span>}
                 {e.skipRate !== null && <span>Skip: {Math.round(e.skipRate * 100)}%</span>}
                 {e.saveCount !== null && <span>Saves: {e.saveCount}</span>}
+              </div>
+            )}
+
+            {e.status === "active" && (
+              <div className="mt-4 flex items-center gap-2 border-t border-border pt-4">
+                <span className="text-xs text-muted">Decide directly (manual override):</span>
+                <button
+                  onClick={() => handleManualResolve(e.id, "claimed")}
+                  disabled={resolvingId === e.id}
+                  className="rounded-full border border-accent/40 px-3 py-1 text-xs font-medium text-accent transition hover:bg-accent/10 disabled:opacity-50"
+                >
+                  {resolvingId === e.id ? "…" : "Claim"}
+                </button>
+                <button
+                  onClick={() => handleManualResolve(e.id, "retreated")}
+                  disabled={resolvingId === e.id}
+                  className="rounded-full border border-danger/40 px-3 py-1 text-xs font-medium text-danger transition hover:bg-danger/10 disabled:opacity-50"
+                >
+                  {resolvingId === e.id ? "…" : "Retreat"}
+                </button>
               </div>
             )}
           </div>

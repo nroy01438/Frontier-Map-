@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getCurrentUser } from "@/lib/session";
 import { prisma } from "@/lib/prisma";
 import { toExpeditionDTO } from "@/lib/dto";
+import { topGenres } from "@/lib/clustering";
 
 export async function GET() {
   const user = await getCurrentUser();
@@ -19,15 +20,17 @@ export async function GET() {
   });
   const trackById = new Map(tracks.map((t) => [t.spotifyTrackId, t]));
 
-  const dtos = expeditions.map((e) =>
-    toExpeditionDTO({
+  const dtos = expeditions.map((e) => {
+    const expeditionTracks = e.trackIds.map((id) => trackById.get(id)).filter((t): t is NonNullable<typeof t> => !!t);
+    return toExpeditionDTO({
       ...e,
+      genres: topGenres(expeditionTracks.map((t) => t.genres)),
       trackDetails: e.trackIds.map((id) => {
         const t = trackById.get(id);
         return { spotifyTrackId: id, trackName: t?.trackName ?? id, artistName: t?.artistName ?? "" };
       }),
-    }),
-  );
+    });
+  });
 
   return NextResponse.json({ expeditions: dtos });
 }
