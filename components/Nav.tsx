@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { signOut } from "next-auth/react";
 
 const LINKS = [
+  { href: "/frontier/guide", label: "Guide" },
   { href: "/frontier", label: "Map" },
   { href: "/frontier/expeditions", label: "Expeditions" },
   { href: "/frontier/events", label: "Events" },
