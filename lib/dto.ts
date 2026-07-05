@@ -42,12 +42,14 @@ export function toTerritoryDTO(t: Territory & { tracks: TrackFeature[] }): Terri
 export function toExpeditionDTO(
   e: Expedition & { territory: Territory; trackDetails: { spotifyTrackId: string; trackName: string; artistName: string }[] },
 ): ExpeditionDTO {
+  const mock = e.spotifyPlaylistId.startsWith("mock-playlist-");
   return {
     id: e.id,
     territoryId: e.territoryId,
     territoryLabel: e.territory.label,
     spotifyPlaylistId: e.spotifyPlaylistId,
-    spotifyPlaylistUrl: `https://open.spotify.com/playlist/${e.spotifyPlaylistId}`,
+    spotifyPlaylistUrl: mock ? "" : `https://open.spotify.com/playlist/${e.spotifyPlaylistId}`,
+    mock,
     trackIds: e.trackIds,
     tracks: e.trackDetails,
     status: e.status as ExpeditionStatus,

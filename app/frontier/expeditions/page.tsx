@@ -10,9 +10,17 @@ const STATUS_STYLES: Record<string, string> = {
   inconclusive: "bg-zinc-700/20 text-zinc-500 border-zinc-800",
 };
 
+const DECISION_MESSAGE: Record<string, string> = {
+  claimed: "Resolved — the territory was claimed based on strong engagement.",
+  retreated: "Resolved — the territory was retreated from based on weak engagement.",
+  inconclusive: "Resolved as inconclusive — not enough signal either way.",
+  pending: "Not enough listening data yet to resolve — check back after more plays.",
+};
+
 export default function ExpeditionsPage() {
   const [expeditions, setExpeditions] = useState<ExpeditionDTO[] | null>(null);
   const [running, setRunning] = useState(false);
+  const [polling, setPolling] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -40,7 +48,12 @@ export default function ExpeditionsPage() {
       const res = await fetch("/api/expeditions/run", { method: "POST" });
       const data = await res.json();
       if (!res.ok) throw new Error(data.error ?? "Failed to run scout");
-      setMessage("New expedition launched — check your Spotify playlists.");
+      const isMock = (data.expedition?.spotifyPlaylistId ?? "").startsWith("mock-playlist-");
+      setMessage(
+        isMock
+          ? "New expedition launched (demo mode — no real playlist). Click \"Check Engagement\" to resolve it."
+          : "New expedition launched — check your Spotify playlists.",
+      );
       await load();
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong");
@@ -49,17 +62,48 @@ export default function ExpeditionsPage() {
     }
   };
 
+  const handlePoll = async () => {
+    setPolling(true);
+    setError(null);
+    setMessage(null);
+    try {
+      const res = await fetch("/api/expeditions/poll", { method: "POST" });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error ?? "Failed to check engagement");
+      const results: string[] = data.results ?? [];
+      if (results.length === 0) {
+        setMessage("No active expedition to check right now.");
+      } else {
+        setMessage(results.map((r) => DECISION_MESSAGE[r] ?? r).join(" "));
+      }
+      await load();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Something went wrong");
+    } finally {
+      setPolling(false);
+    }
+  };
+
   return (
     <div>
       <div className="mb-6 flex items-center justify-between">
         <h1 className="text-2xl font-semibold">Expeditions</h1>
-        <button
-          onClick={handleRunScout}
-          disabled={running}
-          className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-black transition hover:bg-accent/90 disabled:opacity-50"
-        >
-          {running ? "Scouting…" : "Run Scout Now"}
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={handlePoll}
+            disabled={polling}
+            className="rounded-full border border-border px-5 py-2 text-sm font-medium transition hover:border-accent hover:text-accent disabled:opacity-50"
+          >
+            {polling ? "Checking…" : "Check Engagement"}
+          </button>
+          <button
+            onClick={handleRunScout}
+            disabled={running}
+            className="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-black transition hover:bg-accent/90 disabled:opacity-50"
+          >
+            {running ? "Scouting…" : "Run Scout Now"}
+          </button>
+        </div>
       </div>
 
       {message && (
@@ -107,14 +151,23 @@ export default function ExpeditionsPage() {
                   {e.resolvedAt && ` · Resolved ${new Date(e.resolvedAt).toLocaleDateString()}`}
                 </p>
               </div>
-              <a
-                href={e.spotifyPlaylistUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 rounded-full border border-border px-3 py-1.5 text-xs font-medium text-muted transition hover:border-accent hover:text-accent"
-              >
-                Open playlist ↗
-              </a>
+              {e.mock ? (
+                <span
+                  title="Demo mode simulates the playlist — there's no real Spotify playlist behind it."
+                  className="shrink-0 cursor-default rounded-full border border-border px-3 py-1.5 text-xs font-medium text-muted/60"
+                >
+                  Playlist (demo only)
+                </span>
+              ) : (
+                <a
+                  href={e.spotifyPlaylistUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="shrink-0 rounded-full border border-border px-3 py-1.5 text-xs font-medium text-muted transition hover:border-accent hover:text-accent"
+                >
+                  Open playlist ↗
+                </a>
+              )}
             </div>
 
             <ul className="mt-4 grid grid-cols-1 gap-1 text-sm text-muted sm:grid-cols-2">

@@ -60,6 +60,7 @@ export interface ExpeditionDTO {
   territoryLabel: string;
   spotifyPlaylistId: string;
   spotifyPlaylistUrl: string;
+  mock: boolean;
   trackIds: string[];
   tracks: { spotifyTrackId: string; trackName: string; artistName: string }[];
   status: ExpeditionStatus;
