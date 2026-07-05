@@ -66,11 +66,14 @@ cp .env.local.example .env.local
 The Prisma CLI itself only reads `.env` (not `.env.local`), so if you're running
 `npx prisma ...` commands directly, also put `DATABASE_URL` in a `.env` file.
 
-### 4. Push the schema
+### 4. Apply the schema
 
 ```bash
-npx prisma db push
+npx prisma migrate deploy
 ```
+
+(Local schema iteration during development uses `npm run db:migrate`
+(`prisma migrate dev`) instead, which also generates new migration files.)
 
 ### 5. Run it
 
@@ -79,6 +82,52 @@ npm run dev
 ```
 
 Visit `http://localhost:3000`.
+
+## Deploying to Vercel (demo in ~10 minutes)
+
+You need three things: a Vercel account, a Postgres database, and this repo
+connected to both. In `MOCK_MODE`, that's it — no Spotify Developer app or
+Anthropic key required to get a fully working demo URL.
+
+1. **Create a Postgres database.** [Neon](https://neon.tech) has a free tier
+   and is the fastest option: create a project, then copy the connection
+   string it gives you (starts with `postgresql://...`).
+2. **Import the repo into Vercel.** [vercel.com/new](https://vercel.com/new) →
+   import `nroy01438/Frontier-Map-` → pick the branch you want to deploy
+   (either the PR branch directly for a preview URL, or merge the PR to
+   `main` first for a production URL). Framework preset should auto-detect
+   as Next.js.
+3. **Set environment variables** in the Vercel project's Settings →
+   Environment Variables, before the first deploy if possible:
+   | Variable | Value |
+   |---|---|
+   | `DATABASE_URL` | the Neon connection string from step 1 |
+   | `MOCK_MODE` | `true` |
+   | `MOCK_LLM` | `true` |
+   | `NEXTAUTH_SECRET` | output of `openssl rand -base64 32` |
+   | `ENCRYPTION_KEY` | output of `openssl rand -base64 32` |
+   | `CRON_SECRET` | output of `openssl rand -base64 32` |
+   | `NEXTAUTH_URL` | the deployment's URL, e.g. `https://frontier-map.vercel.app` |
+
+   `NEXTAUTH_URL` has a chicken-and-egg problem: Vercel doesn't give you the
+   URL until after the first deploy. Deploy once, copy the assigned URL into
+   `NEXTAUTH_URL`, then redeploy (Vercel → Deployments → ⋯ → Redeploy) — that
+   second deploy is the one you actually share.
+4. **Deploy.** Vercel runs `npm run build`, which is `prisma migrate deploy
+   && next build` — it applies the schema to your Neon database automatically
+   on every deploy, no manual migration step needed.
+5. **(Optional) Vercel Cron.** `vercel.json` already declares the daily/weekly
+   cron schedule; Vercel picks it up automatically on deploy and sends the
+   `Authorization: Bearer $CRON_SECRET` header itself, matching what
+   `/api/cron/*` checks for. Nothing else to configure.
+
+To later upgrade the same deployment to real Spotify + real Claude: register
+an app at the [Spotify Developer Dashboard](https://developer.spotify.com/dashboard)
+with `https://<your-vercel-url>/api/auth/callback/spotify` as a Redirect URI,
+add every demo viewer's Spotify account under that app's "Users and Access"
+(Spotify apps in Dev Mode cap out at 25 allow-listed users), then set
+`SPOTIFY_CLIENT_ID`, `SPOTIFY_CLIENT_SECRET`, `SPOTIFY_REDIRECT_URI`,
+`ANTHROPIC_API_KEY`, and flip `MOCK_MODE`/`MOCK_LLM` to `false`.
 
 ## Running in `MOCK_MODE`
 
