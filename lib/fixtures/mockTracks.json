@@ -1,0 +1,5162 @@
+[
+  {
+    "spotifyTrackId": "mock00010",
+    "trackName": "Echo Current",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 151877,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.391,
+      "energy": 0.222,
+      "valence": 0.307,
+      "acousticness": 0.852,
+      "instrumentalness": 0.034,
+      "tempo": 95,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00020",
+    "trackName": "Echo Bloom",
+    "artistName": "The Quiet Ridge",
+    "artistId": "mockartist-the-quiet-ridge",
+    "durationMs": 158806,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.263,
+      "energy": 0.284,
+      "valence": 0.33,
+      "acousticness": 0.876,
+      "instrumentalness": 0.103,
+      "tempo": 95,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00030",
+    "trackName": "Bone Ridge",
+    "artistName": "The Quiet Ridge",
+    "artistId": "mockartist-the-quiet-ridge",
+    "durationMs": 175135,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.381,
+      "energy": 0.286,
+      "valence": 0.288,
+      "acousticness": 0.843,
+      "instrumentalness": 0.069,
+      "tempo": 95,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00040",
+    "trackName": "Ghost Night",
+    "artistName": "Willow Bend",
+    "artistId": "mockartist-willow-bend",
+    "durationMs": 241495,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.357,
+      "energy": 0.194,
+      "valence": 0.353,
+      "acousticness": 0.887,
+      "instrumentalness": 0.117,
+      "tempo": 100,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00050",
+    "trackName": "Shore Season",
+    "artistName": "Willow Bend",
+    "artistId": "mockartist-willow-bend",
+    "durationMs": 175199,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.407,
+      "energy": 0.196,
+      "valence": 0.26,
+      "acousticness": 0.794,
+      "instrumentalness": 0.056,
+      "tempo": 95,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock00060",
+    "trackName": "Ghost Fracture",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 205255,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.365,
+      "energy": 0.282,
+      "valence": 0.318,
+      "acousticness": 0.773,
+      "instrumentalness": 0.072,
+      "tempo": 98,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00070",
+    "trackName": "Loop Lantern",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 166242,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.264,
+      "energy": 0.279,
+      "valence": 0.337,
+      "acousticness": 0.813,
+      "instrumentalness": 0.142,
+      "tempo": 92,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00080",
+    "trackName": "Static Signal",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 151552,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.331,
+      "energy": 0.346,
+      "valence": 0.257,
+      "acousticness": 0.772,
+      "instrumentalness": 0.062,
+      "tempo": 102,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00090",
+    "trackName": "Chorus Hollow",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 222184,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.265,
+      "energy": 0.193,
+      "valence": 0.303,
+      "acousticness": 0.798,
+      "instrumentalness": 0.105,
+      "tempo": 97,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00100",
+    "trackName": "Lantern Spiral",
+    "artistName": "Willow Bend",
+    "artistId": "mockartist-willow-bend",
+    "durationMs": 202298,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.349,
+      "energy": 0.205,
+      "valence": 0.41,
+      "acousticness": 0.776,
+      "instrumentalness": 0.104,
+      "tempo": 102,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00110",
+    "trackName": "Haze Glass",
+    "artistName": "Mara Solene",
+    "artistId": "mockartist-mara-solene",
+    "durationMs": 251514,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.279,
+      "energy": 0.279,
+      "valence": 0.285,
+      "acousticness": 0.787,
+      "instrumentalness": 0.04,
+      "tempo": 102,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00120",
+    "trackName": "Frost Hollow",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 176940,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.295,
+      "energy": 0.362,
+      "valence": 0.379,
+      "acousticness": 0.864,
+      "instrumentalness": 0.005,
+      "tempo": 96,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00130",
+    "trackName": "Frost Ember",
+    "artistName": "The Quiet Ridge",
+    "artistId": "mockartist-the-quiet-ridge",
+    "durationMs": 235445,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.341,
+      "energy": 0.354,
+      "valence": 0.25,
+      "acousticness": 0.889,
+      "instrumentalness": 0.064,
+      "tempo": 95,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00140",
+    "trackName": "Orbit Ridge",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 161006,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.242,
+      "energy": 0.242,
+      "valence": 0.356,
+      "acousticness": 0.767,
+      "instrumentalness": 0.09,
+      "tempo": 90,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00150",
+    "trackName": "Orbit Bone",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 220002,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.31,
+      "energy": 0.339,
+      "valence": 0.438,
+      "acousticness": 0.749,
+      "instrumentalness": 0.041,
+      "tempo": 98,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock00160",
+    "trackName": "Glass Hollow",
+    "artistName": "The Quiet Ridge",
+    "artistId": "mockartist-the-quiet-ridge",
+    "durationMs": 178766,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.375,
+      "energy": 0.367,
+      "valence": 0.43,
+      "acousticness": 0.762,
+      "instrumentalness": 0.03,
+      "tempo": 90,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00170",
+    "trackName": "Shore Signal",
+    "artistName": "The Quiet Ridge",
+    "artistId": "mockartist-the-quiet-ridge",
+    "durationMs": 225144,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.346,
+      "energy": 0.317,
+      "valence": 0.324,
+      "acousticness": 0.75,
+      "instrumentalness": 0.121,
+      "tempo": 90,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00180",
+    "trackName": "Fracture Season",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 167681,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.248,
+      "energy": 0.219,
+      "valence": 0.363,
+      "acousticness": 0.823,
+      "instrumentalness": 0.063,
+      "tempo": 94,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00190",
+    "trackName": "Wire Orbit",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 213918,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.277,
+      "energy": 0.262,
+      "valence": 0.363,
+      "acousticness": 0.86,
+      "instrumentalness": 0.137,
+      "tempo": 100,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock00200",
+    "trackName": "Bloom Ember",
+    "artistName": "Mara Solene",
+    "artistId": "mockartist-mara-solene",
+    "durationMs": 192233,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.281,
+      "energy": 0.262,
+      "valence": 0.335,
+      "acousticness": 0.755,
+      "instrumentalness": 0.121,
+      "tempo": 91,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00210",
+    "trackName": "Hollow Night",
+    "artistName": "The Quiet Ridge",
+    "artistId": "mockartist-the-quiet-ridge",
+    "durationMs": 180545,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.366,
+      "energy": 0.262,
+      "valence": 0.299,
+      "acousticness": 0.881,
+      "instrumentalness": 0.025,
+      "tempo": 99,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00220",
+    "trackName": "Static Room",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 236544,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.303,
+      "energy": 0.344,
+      "valence": 0.284,
+      "acousticness": 0.826,
+      "instrumentalness": 0.041,
+      "tempo": 100,
+      "mode": 1,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00230",
+    "trackName": "Current Signal",
+    "artistName": "Mara Solene",
+    "artistId": "mockartist-mara-solene",
+    "durationMs": 217640,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.328,
+      "energy": 0.276,
+      "valence": 0.31,
+      "acousticness": 0.853,
+      "instrumentalness": 0.051,
+      "tempo": 95,
+      "mode": 1,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00240",
+    "trackName": "Bone Ember",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 263985,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.255,
+      "energy": 0.226,
+      "valence": 0.411,
+      "acousticness": 0.774,
+      "instrumentalness": 0.056,
+      "tempo": 96,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00250",
+    "trackName": "Ghost Field",
+    "artistName": "Mara Solene",
+    "artistId": "mockartist-mara-solene",
+    "durationMs": 252987,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.317,
+      "energy": 0.289,
+      "valence": 0.43,
+      "acousticness": 0.746,
+      "instrumentalness": 0.057,
+      "tempo": 89,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00260",
+    "trackName": "Haze Signal",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 170992,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.258,
+      "energy": 0.298,
+      "valence": 0.457,
+      "acousticness": 0.856,
+      "instrumentalness": 0.132,
+      "tempo": 104,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00270",
+    "trackName": "Static Drift",
+    "artistName": "Mara Solene",
+    "artistId": "mockartist-mara-solene",
+    "durationMs": 193365,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.283,
+      "energy": 0.353,
+      "valence": 0.293,
+      "acousticness": 0.874,
+      "instrumentalness": 0.123,
+      "tempo": 92,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00280",
+    "trackName": "Drift Ridge",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 191204,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.257,
+      "energy": 0.236,
+      "valence": 0.406,
+      "acousticness": 0.893,
+      "instrumentalness": 0.014,
+      "tempo": 91,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00290",
+    "trackName": "Ember Static",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 203384,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.264,
+      "energy": 0.192,
+      "valence": 0.297,
+      "acousticness": 0.769,
+      "instrumentalness": 0.053,
+      "tempo": 91,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00300",
+    "trackName": "Tide Season",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 249177,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.288,
+      "energy": 0.33,
+      "valence": 0.404,
+      "acousticness": 0.891,
+      "instrumentalness": 0.105,
+      "tempo": 92,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock00310",
+    "trackName": "Drift Glass",
+    "artistName": "Fen & Hollow",
+    "artistId": "mockartist-fen-hollow",
+    "durationMs": 179914,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.308,
+      "energy": 0.325,
+      "valence": 0.269,
+      "acousticness": 0.815,
+      "instrumentalness": 0.079,
+      "tempo": 95,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock00320",
+    "trackName": "Hollow Room",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 158657,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.27,
+      "energy": 0.227,
+      "valence": 0.249,
+      "acousticness": 0.768,
+      "instrumentalness": 0.117,
+      "tempo": 101,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00330",
+    "trackName": "Field Fade",
+    "artistName": "Autumn Loom",
+    "artistId": "mockartist-autumn-loom",
+    "durationMs": 225470,
+    "genres": [
+      "indie folk",
+      "chamber pop",
+      "singer-songwriter"
+    ],
+    "pool": "baseline",
+    "clusterName": "Atmospheric Folk",
+    "audioFeatures": {
+      "danceability": 0.293,
+      "energy": 0.281,
+      "valence": 0.354,
+      "acousticness": 0.892,
+      "instrumentalness": 0.024,
+      "tempo": 90,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00341",
+    "trackName": "Ghost Fade",
+    "artistName": "8-Bit Rainfall",
+    "artistId": "mockartist-8-bit-rainfall",
+    "durationMs": 168614,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.49,
+      "energy": 0.404,
+      "valence": 0.379,
+      "acousticness": 0.57,
+      "instrumentalness": 0.661,
+      "tempo": 88,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00351",
+    "trackName": "Lantern Horizon",
+    "artistName": "Static Bloom",
+    "artistId": "mockartist-static-bloom",
+    "durationMs": 233344,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.549,
+      "energy": 0.295,
+      "valence": 0.439,
+      "acousticness": 0.485,
+      "instrumentalness": 0.697,
+      "tempo": 80,
+      "mode": 1,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00361",
+    "trackName": "Signal Spiral",
+    "artistName": "Static Bloom",
+    "artistId": "mockartist-static-bloom",
+    "durationMs": 172963,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.623,
+      "energy": 0.32,
+      "valence": 0.328,
+      "acousticness": 0.509,
+      "instrumentalness": 0.592,
+      "tempo": 83,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00371",
+    "trackName": "Ember Current",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 218005,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.5,
+      "energy": 0.404,
+      "valence": 0.345,
+      "acousticness": 0.558,
+      "instrumentalness": 0.621,
+      "tempo": 74,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00381",
+    "trackName": "Fade Signal",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 184771,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.658,
+      "energy": 0.251,
+      "valence": 0.516,
+      "acousticness": 0.563,
+      "instrumentalness": 0.673,
+      "tempo": 82,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00391",
+    "trackName": "Frost Tide",
+    "artistName": "Nocturn Café",
+    "artistId": "mockartist-nocturn-caf-",
+    "durationMs": 173299,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.5,
+      "energy": 0.352,
+      "valence": 0.34,
+      "acousticness": 0.548,
+      "instrumentalness": 0.652,
+      "tempo": 78,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00401",
+    "trackName": "Orbit Bloom",
+    "artistName": "8-Bit Rainfall",
+    "artistId": "mockartist-8-bit-rainfall",
+    "durationMs": 192489,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.612,
+      "energy": 0.391,
+      "valence": 0.475,
+      "acousticness": 0.561,
+      "instrumentalness": 0.692,
+      "tempo": 89,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00411",
+    "trackName": "Static Wire",
+    "artistName": "8-Bit Rainfall",
+    "artistId": "mockartist-8-bit-rainfall",
+    "durationMs": 164694,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.522,
+      "energy": 0.335,
+      "valence": 0.429,
+      "acousticness": 0.52,
+      "instrumentalness": 0.601,
+      "tempo": 77,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00421",
+    "trackName": "Drift Ghost",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 213480,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.545,
+      "energy": 0.389,
+      "valence": 0.433,
+      "acousticness": 0.618,
+      "instrumentalness": 0.679,
+      "tempo": 83,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00431",
+    "trackName": "Ember Static",
+    "artistName": "Nocturn Café",
+    "artistId": "mockartist-nocturn-caf-",
+    "durationMs": 244248,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.511,
+      "energy": 0.378,
+      "valence": 0.492,
+      "acousticness": 0.501,
+      "instrumentalness": 0.575,
+      "tempo": 82,
+      "mode": 0,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00441",
+    "trackName": "Fade Glass",
+    "artistName": "Velvet Tape",
+    "artistId": "mockartist-velvet-tape",
+    "durationMs": 266459,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.558,
+      "energy": 0.242,
+      "valence": 0.442,
+      "acousticness": 0.557,
+      "instrumentalness": 0.579,
+      "tempo": 87,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00451",
+    "trackName": "Field Season",
+    "artistName": "Velvet Tape",
+    "artistId": "mockartist-velvet-tape",
+    "durationMs": 267544,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.562,
+      "energy": 0.233,
+      "valence": 0.511,
+      "acousticness": 0.599,
+      "instrumentalness": 0.648,
+      "tempo": 79,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00461",
+    "trackName": "Ghost Drift",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 226850,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.587,
+      "energy": 0.299,
+      "valence": 0.374,
+      "acousticness": 0.588,
+      "instrumentalness": 0.675,
+      "tempo": 78,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00471",
+    "trackName": "Ember Orbit",
+    "artistName": "Velvet Tape",
+    "artistId": "mockartist-velvet-tape",
+    "durationMs": 178110,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.666,
+      "energy": 0.303,
+      "valence": 0.485,
+      "acousticness": 0.53,
+      "instrumentalness": 0.639,
+      "tempo": 88,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00481",
+    "trackName": "Current Night",
+    "artistName": "Nocturn Café",
+    "artistId": "mockartist-nocturn-caf-",
+    "durationMs": 245872,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.593,
+      "energy": 0.407,
+      "valence": 0.41,
+      "acousticness": 0.502,
+      "instrumentalness": 0.586,
+      "tempo": 81,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00491",
+    "trackName": "Ridge Echo",
+    "artistName": "Static Bloom",
+    "artistId": "mockartist-static-bloom",
+    "durationMs": 206530,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.604,
+      "energy": 0.25,
+      "valence": 0.345,
+      "acousticness": 0.58,
+      "instrumentalness": 0.645,
+      "tempo": 86,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00501",
+    "trackName": "Tide Room",
+    "artistName": "8-Bit Rainfall",
+    "artistId": "mockartist-8-bit-rainfall",
+    "durationMs": 181001,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.634,
+      "energy": 0.391,
+      "valence": 0.413,
+      "acousticness": 0.498,
+      "instrumentalness": 0.709,
+      "tempo": 77,
+      "mode": 0,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00511",
+    "trackName": "Hollow Spiral",
+    "artistName": "8-Bit Rainfall",
+    "artistId": "mockartist-8-bit-rainfall",
+    "durationMs": 223368,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.554,
+      "energy": 0.338,
+      "valence": 0.431,
+      "acousticness": 0.561,
+      "instrumentalness": 0.612,
+      "tempo": 87,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00521",
+    "trackName": "Season Bloom",
+    "artistName": "Velvet Tape",
+    "artistId": "mockartist-velvet-tape",
+    "durationMs": 182553,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.616,
+      "energy": 0.409,
+      "valence": 0.521,
+      "acousticness": 0.514,
+      "instrumentalness": 0.682,
+      "tempo": 89,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00531",
+    "trackName": "Lantern Tide",
+    "artistName": "8-Bit Rainfall",
+    "artistId": "mockartist-8-bit-rainfall",
+    "durationMs": 208616,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.491,
+      "energy": 0.263,
+      "valence": 0.524,
+      "acousticness": 0.607,
+      "instrumentalness": 0.671,
+      "tempo": 81,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00541",
+    "trackName": "Tide Echo",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 236287,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.595,
+      "energy": 0.342,
+      "valence": 0.454,
+      "acousticness": 0.519,
+      "instrumentalness": 0.707,
+      "tempo": 87,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00551",
+    "trackName": "Tide Glass",
+    "artistName": "Static Bloom",
+    "artistId": "mockartist-static-bloom",
+    "durationMs": 225808,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.663,
+      "energy": 0.369,
+      "valence": 0.335,
+      "acousticness": 0.571,
+      "instrumentalness": 0.702,
+      "tempo": 85,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00561",
+    "trackName": "Hollow Season",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 160766,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.544,
+      "energy": 0.309,
+      "valence": 0.516,
+      "acousticness": 0.562,
+      "instrumentalness": 0.582,
+      "tempo": 81,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00571",
+    "trackName": "Room Static",
+    "artistName": "Velvet Tape",
+    "artistId": "mockartist-velvet-tape",
+    "durationMs": 181763,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.492,
+      "energy": 0.374,
+      "valence": 0.501,
+      "acousticness": 0.602,
+      "instrumentalness": 0.661,
+      "tempo": 90,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock00581",
+    "trackName": "Spiral Ember",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 166563,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.515,
+      "energy": 0.283,
+      "valence": 0.448,
+      "acousticness": 0.495,
+      "instrumentalness": 0.575,
+      "tempo": 83,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00591",
+    "trackName": "Static Ridge",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 163305,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.548,
+      "energy": 0.27,
+      "valence": 0.397,
+      "acousticness": 0.612,
+      "instrumentalness": 0.669,
+      "tempo": 82,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00601",
+    "trackName": "Current Hollow",
+    "artistName": "Nocturn Café",
+    "artistId": "mockartist-nocturn-caf-",
+    "durationMs": 194328,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.514,
+      "energy": 0.356,
+      "valence": 0.392,
+      "acousticness": 0.524,
+      "instrumentalness": 0.587,
+      "tempo": 80,
+      "mode": 0,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock00611",
+    "trackName": "Wire Shore",
+    "artistName": "Static Bloom",
+    "artistId": "mockartist-static-bloom",
+    "durationMs": 211489,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.602,
+      "energy": 0.349,
+      "valence": 0.376,
+      "acousticness": 0.604,
+      "instrumentalness": 0.579,
+      "tempo": 76,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00621",
+    "trackName": "Season Hollow",
+    "artistName": "Nocturn Café",
+    "artistId": "mockartist-nocturn-caf-",
+    "durationMs": 191297,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.56,
+      "energy": 0.406,
+      "valence": 0.335,
+      "acousticness": 0.497,
+      "instrumentalness": 0.72,
+      "tempo": 79,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00631",
+    "trackName": "Shore Signal",
+    "artistName": "Hazy Loop",
+    "artistId": "mockartist-hazy-loop",
+    "durationMs": 209965,
+    "genres": [
+      "lo-fi hip hop",
+      "chillhop",
+      "jazz-influenced"
+    ],
+    "pool": "baseline",
+    "clusterName": "Late-Night Lo-fi",
+    "audioFeatures": {
+      "danceability": 0.554,
+      "energy": 0.337,
+      "valence": 0.492,
+      "acousticness": 0.535,
+      "instrumentalness": 0.648,
+      "tempo": 89,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00642",
+    "trackName": "Field Orbit",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 195882,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.747,
+      "energy": 0.685,
+      "valence": 0.632,
+      "acousticness": 0.085,
+      "instrumentalness": 0.074,
+      "tempo": 114,
+      "mode": 0,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00652",
+    "trackName": "Loop Fracture",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 231998,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.714,
+      "energy": 0.705,
+      "valence": 0.596,
+      "acousticness": 0.109,
+      "instrumentalness": 0.056,
+      "tempo": 125,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00662",
+    "trackName": "Drift Signal",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 157465,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.741,
+      "energy": 0.727,
+      "valence": 0.581,
+      "acousticness": 0.144,
+      "instrumentalness": 0,
+      "tempo": 121,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00672",
+    "trackName": "Chorus Loop",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 151547,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.773,
+      "energy": 0.734,
+      "valence": 0.657,
+      "acousticness": 0.048,
+      "instrumentalness": 0.044,
+      "tempo": 123,
+      "mode": 0,
+      "key": 11
+    }
+  },
+  {
+    "spotifyTrackId": "mock00682",
+    "trackName": "Tide Glass",
+    "artistName": "Pulse Radio",
+    "artistId": "mockartist-pulse-radio",
+    "durationMs": 263972,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.707,
+      "energy": 0.592,
+      "valence": 0.531,
+      "acousticness": 0.092,
+      "instrumentalness": 0,
+      "tempo": 119,
+      "mode": 0,
+      "key": 11
+    }
+  },
+  {
+    "spotifyTrackId": "mock00692",
+    "trackName": "Current Fracture",
+    "artistName": "Pulse Radio",
+    "artistId": "mockartist-pulse-radio",
+    "durationMs": 152464,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.722,
+      "energy": 0.591,
+      "valence": 0.677,
+      "acousticness": 0.068,
+      "instrumentalness": 0.035,
+      "tempo": 124,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00702",
+    "trackName": "Chorus Drift",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 187818,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.69,
+      "energy": 0.641,
+      "valence": 0.504,
+      "acousticness": 0.045,
+      "instrumentalness": 0,
+      "tempo": 121,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00712",
+    "trackName": "Orbit Season",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 214505,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.721,
+      "energy": 0.669,
+      "valence": 0.621,
+      "acousticness": 0.151,
+      "instrumentalness": 0,
+      "tempo": 119,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00722",
+    "trackName": "Ember Fade",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 236458,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.636,
+      "energy": 0.753,
+      "valence": 0.544,
+      "acousticness": 0.15,
+      "instrumentalness": 0,
+      "tempo": 115,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00732",
+    "trackName": "Season Tide",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 198596,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.694,
+      "energy": 0.666,
+      "valence": 0.699,
+      "acousticness": 0.074,
+      "instrumentalness": 0.045,
+      "tempo": 125,
+      "mode": 1,
+      "key": 11
+    }
+  },
+  {
+    "spotifyTrackId": "mock00742",
+    "trackName": "Ghost Season",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 217501,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.638,
+      "energy": 0.672,
+      "valence": 0.641,
+      "acousticness": 0.155,
+      "instrumentalness": 0.012,
+      "tempo": 120,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00752",
+    "trackName": "Field Tide",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 157594,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.78,
+      "energy": 0.679,
+      "valence": 0.61,
+      "acousticness": 0.148,
+      "instrumentalness": 0,
+      "tempo": 121,
+      "mode": 1,
+      "key": 11
+    }
+  },
+  {
+    "spotifyTrackId": "mock00762",
+    "trackName": "Ridge Ghost",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 244019,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.731,
+      "energy": 0.669,
+      "valence": 0.706,
+      "acousticness": 0.101,
+      "instrumentalness": 0.022,
+      "tempo": 118,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00772",
+    "trackName": "Bloom Haze",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 257624,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.77,
+      "energy": 0.622,
+      "valence": 0.624,
+      "acousticness": 0.015,
+      "instrumentalness": 0.002,
+      "tempo": 116,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00782",
+    "trackName": "Fade Tide",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 215357,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.693,
+      "energy": 0.711,
+      "valence": 0.683,
+      "acousticness": 0.035,
+      "instrumentalness": 0,
+      "tempo": 123,
+      "mode": 1,
+      "key": 10
+    }
+  },
+  {
+    "spotifyTrackId": "mock00792",
+    "trackName": "Glass Haze",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 184598,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.801,
+      "energy": 0.608,
+      "valence": 0.496,
+      "acousticness": 0.13,
+      "instrumentalness": 0.09,
+      "tempo": 123,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00802",
+    "trackName": "Shore Bloom",
+    "artistName": "Chromewave",
+    "artistId": "mockartist-chromewave",
+    "durationMs": 258914,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.79,
+      "energy": 0.641,
+      "valence": 0.559,
+      "acousticness": 0.111,
+      "instrumentalness": 0.077,
+      "tempo": 113,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00812",
+    "trackName": "Echo Bloom",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 177771,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.666,
+      "energy": 0.65,
+      "valence": 0.612,
+      "acousticness": 0.102,
+      "instrumentalness": 0,
+      "tempo": 119,
+      "mode": 0,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00822",
+    "trackName": "Bone Signal",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 223626,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.72,
+      "energy": 0.748,
+      "valence": 0.646,
+      "acousticness": 0.079,
+      "instrumentalness": 0,
+      "tempo": 119,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00832",
+    "trackName": "Hollow Tide",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 212734,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.691,
+      "energy": 0.603,
+      "valence": 0.652,
+      "acousticness": 0.073,
+      "instrumentalness": 0,
+      "tempo": 126,
+      "mode": 0,
+      "key": 10
+    }
+  },
+  {
+    "spotifyTrackId": "mock00842",
+    "trackName": "Lantern Bloom",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 183608,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.764,
+      "energy": 0.679,
+      "valence": 0.523,
+      "acousticness": 0.076,
+      "instrumentalness": 0.039,
+      "tempo": 113,
+      "mode": 0,
+      "key": 11
+    }
+  },
+  {
+    "spotifyTrackId": "mock00852",
+    "trackName": "Signal Orbit",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 178020,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.743,
+      "energy": 0.762,
+      "valence": 0.678,
+      "acousticness": 0.145,
+      "instrumentalness": 0.061,
+      "tempo": 113,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00862",
+    "trackName": "Current",
+    "artistName": "Pulse Radio",
+    "artistId": "mockartist-pulse-radio",
+    "durationMs": 225906,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.732,
+      "energy": 0.601,
+      "valence": 0.621,
+      "acousticness": 0.122,
+      "instrumentalness": 0,
+      "tempo": 116,
+      "mode": 0,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00872",
+    "trackName": "Bloom Shore",
+    "artistName": "Glass Horizon",
+    "artistId": "mockartist-glass-horizon",
+    "durationMs": 202823,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.767,
+      "energy": 0.729,
+      "valence": 0.542,
+      "acousticness": 0.127,
+      "instrumentalness": 0.056,
+      "tempo": 111,
+      "mode": 0,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00882",
+    "trackName": "Drift Season",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 224136,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.744,
+      "energy": 0.646,
+      "valence": 0.634,
+      "acousticness": 0.138,
+      "instrumentalness": 0.064,
+      "tempo": 117,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00892",
+    "trackName": "Loop Haze",
+    "artistName": "Pulse Radio",
+    "artistId": "mockartist-pulse-radio",
+    "durationMs": 189284,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.809,
+      "energy": 0.714,
+      "valence": 0.578,
+      "acousticness": 0.085,
+      "instrumentalness": 0.049,
+      "tempo": 116,
+      "mode": 0,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00902",
+    "trackName": "Loop Field",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 172363,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.8,
+      "energy": 0.669,
+      "valence": 0.532,
+      "acousticness": 0.053,
+      "instrumentalness": 0.028,
+      "tempo": 114,
+      "mode": 1,
+      "key": 11
+    }
+  },
+  {
+    "spotifyTrackId": "mock00912",
+    "trackName": "Loop Lantern",
+    "artistName": "Chromewave",
+    "artistId": "mockartist-chromewave",
+    "durationMs": 232455,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.776,
+      "energy": 0.68,
+      "valence": 0.594,
+      "acousticness": 0.151,
+      "instrumentalness": 0.01,
+      "tempo": 123,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00922",
+    "trackName": "Horizon Echo",
+    "artistName": "Pulse Radio",
+    "artistId": "mockartist-pulse-radio",
+    "durationMs": 189847,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.639,
+      "energy": 0.627,
+      "valence": 0.506,
+      "acousticness": 0.101,
+      "instrumentalness": 0.078,
+      "tempo": 120,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00932",
+    "trackName": "Room Chorus",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 183518,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.803,
+      "energy": 0.708,
+      "valence": 0.617,
+      "acousticness": 0.095,
+      "instrumentalness": 0,
+      "tempo": 112,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock00942",
+    "trackName": "Fade Season",
+    "artistName": "Vivid Static",
+    "artistId": "mockartist-vivid-static",
+    "durationMs": 193258,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.772,
+      "energy": 0.735,
+      "valence": 0.687,
+      "acousticness": 0.107,
+      "instrumentalness": 0,
+      "tempo": 124,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00952",
+    "trackName": "Ridge Current",
+    "artistName": "Chromewave",
+    "artistId": "mockartist-chromewave",
+    "durationMs": 244356,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.777,
+      "energy": 0.704,
+      "valence": 0.495,
+      "acousticness": 0.139,
+      "instrumentalness": 0.04,
+      "tempo": 124,
+      "mode": 1,
+      "key": 9
+    }
+  },
+  {
+    "spotifyTrackId": "mock00962",
+    "trackName": "Bloom Current",
+    "artistName": "Midnight Arcade",
+    "artistId": "mockartist-midnight-arcade",
+    "durationMs": 198434,
+    "genres": [
+      "synthpop",
+      "electropop",
+      "dream pop"
+    ],
+    "pool": "baseline",
+    "clusterName": "Neon Synthpop",
+    "audioFeatures": {
+      "danceability": 0.773,
+      "energy": 0.656,
+      "valence": 0.629,
+      "acousticness": 0.146,
+      "instrumentalness": 0.077,
+      "tempo": 112,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock00973",
+    "trackName": "Fracture Bloom",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 204367,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.708,
+      "energy": 0.818,
+      "valence": 0.648,
+      "acousticness": 0.064,
+      "instrumentalness": 0,
+      "tempo": 158,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock00983",
+    "trackName": "Drift Glass",
+    "artistName": "Crash Bloom",
+    "artistId": "mockartist-crash-bloom",
+    "durationMs": 224065,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.639,
+      "energy": 0.938,
+      "valence": 0.632,
+      "acousticness": 0.002,
+      "instrumentalness": 0,
+      "tempo": 153,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock00993",
+    "trackName": "Bone Orbit",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 210891,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.695,
+      "energy": 0.83,
+      "valence": 0.64,
+      "acousticness": 0,
+      "instrumentalness": 0,
+      "tempo": 145,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01003",
+    "trackName": "Haze Bloom",
+    "artistName": "Pixel Grief",
+    "artistId": "mockartist-pixel-grief",
+    "durationMs": 191351,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.668,
+      "energy": 0.913,
+      "valence": 0.612,
+      "acousticness": 0.067,
+      "instrumentalness": 0.05,
+      "tempo": 150,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01013",
+    "trackName": "Bloom Ghost",
+    "artistName": "Crash Bloom",
+    "artistId": "mockartist-crash-bloom",
+    "durationMs": 228877,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.698,
+      "energy": 0.917,
+      "valence": 0.644,
+      "acousticness": 0,
+      "instrumentalness": 0,
+      "tempo": 152,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01023",
+    "trackName": "Signal Hollow",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 197990,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.658,
+      "energy": 0.812,
+      "valence": 0.572,
+      "acousticness": 0,
+      "instrumentalness": 0,
+      "tempo": 156,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01033",
+    "trackName": "Ghost Echo",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 161412,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.571,
+      "energy": 0.83,
+      "valence": 0.556,
+      "acousticness": 0.021,
+      "instrumentalness": 0,
+      "tempo": 153,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01043",
+    "trackName": "Static Frost",
+    "artistName": "Crash Bloom",
+    "artistId": "mockartist-crash-bloom",
+    "durationMs": 244923,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.712,
+      "energy": 0.916,
+      "valence": 0.631,
+      "acousticness": 0.065,
+      "instrumentalness": 0,
+      "tempo": 157,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01053",
+    "trackName": "Wire Spiral",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 203314,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.56,
+      "energy": 0.96,
+      "valence": 0.476,
+      "acousticness": 0.09,
+      "instrumentalness": 0.061,
+      "tempo": 155,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01063",
+    "trackName": "Spiral Night",
+    "artistName": "Pixel Grief",
+    "artistId": "mockartist-pixel-grief",
+    "durationMs": 196256,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.589,
+      "energy": 0.813,
+      "valence": 0.548,
+      "acousticness": 0.063,
+      "instrumentalness": 0,
+      "tempo": 146,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01073",
+    "trackName": "Night Static",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 241352,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.571,
+      "energy": 0.859,
+      "valence": 0.654,
+      "acousticness": 0.036,
+      "instrumentalness": 0.076,
+      "tempo": 148,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01083",
+    "trackName": "Wire Frost",
+    "artistName": "Overclock Heart",
+    "artistId": "mockartist-overclock-heart",
+    "durationMs": 151495,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.696,
+      "energy": 0.856,
+      "valence": 0.622,
+      "acousticness": 0.035,
+      "instrumentalness": 0,
+      "tempo": 155,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01093",
+    "trackName": "Haze Field",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 239680,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.646,
+      "energy": 0.955,
+      "valence": 0.602,
+      "acousticness": 0.102,
+      "instrumentalness": 0,
+      "tempo": 146,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01103",
+    "trackName": "Lantern Frost",
+    "artistName": "Overclock Heart",
+    "artistId": "mockartist-overclock-heart",
+    "durationMs": 243612,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.574,
+      "energy": 0.929,
+      "valence": 0.441,
+      "acousticness": 0.019,
+      "instrumentalness": 0,
+      "tempo": 145,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01113",
+    "trackName": "Lantern Drift",
+    "artistName": "Pixel Grief",
+    "artistId": "mockartist-pixel-grief",
+    "durationMs": 202311,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.633,
+      "energy": 0.838,
+      "valence": 0.63,
+      "acousticness": 0.082,
+      "instrumentalness": 0,
+      "tempo": 144,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01123",
+    "trackName": "Shore Fracture",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 164260,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.627,
+      "energy": 0.843,
+      "valence": 0.633,
+      "acousticness": 0,
+      "instrumentalness": 0.085,
+      "tempo": 146,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01133",
+    "trackName": "Echo Fade",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 247472,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.672,
+      "energy": 0.924,
+      "valence": 0.654,
+      "acousticness": 0.02,
+      "instrumentalness": 0.034,
+      "tempo": 146,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01143",
+    "trackName": "Static Current",
+    "artistName": "Overclock Heart",
+    "artistId": "mockartist-overclock-heart",
+    "durationMs": 180823,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.622,
+      "energy": 0.823,
+      "valence": 0.631,
+      "acousticness": 0,
+      "instrumentalness": 0.024,
+      "tempo": 155,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01153",
+    "trackName": "Lantern Ghost",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 262925,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.723,
+      "energy": 0.846,
+      "valence": 0.553,
+      "acousticness": 0.001,
+      "instrumentalness": 0,
+      "tempo": 148,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01163",
+    "trackName": "Current Field",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 249705,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.714,
+      "energy": 0.823,
+      "valence": 0.594,
+      "acousticness": 0.085,
+      "instrumentalness": 0.058,
+      "tempo": 147,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01173",
+    "trackName": "Current Echo",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 197779,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.712,
+      "energy": 0.823,
+      "valence": 0.442,
+      "acousticness": 0.019,
+      "instrumentalness": 0,
+      "tempo": 148,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01183",
+    "trackName": "Room Ghost",
+    "artistName": "Overclock Heart",
+    "artistId": "mockartist-overclock-heart",
+    "durationMs": 207662,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.72,
+      "energy": 0.83,
+      "valence": 0.61,
+      "acousticness": 0.013,
+      "instrumentalness": 0.004,
+      "tempo": 147,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01193",
+    "trackName": "Fade Field",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 203784,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.705,
+      "energy": 0.848,
+      "valence": 0.55,
+      "acousticness": 0.053,
+      "instrumentalness": 0.083,
+      "tempo": 155,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01203",
+    "trackName": "Night Hollow",
+    "artistName": "Crash Bloom",
+    "artistId": "mockartist-crash-bloom",
+    "durationMs": 227674,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.686,
+      "energy": 0.815,
+      "valence": 0.618,
+      "acousticness": 0,
+      "instrumentalness": 0,
+      "tempo": 146,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01213",
+    "trackName": "Ghost Echo",
+    "artistName": "Pixel Grief",
+    "artistId": "mockartist-pixel-grief",
+    "durationMs": 154601,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.569,
+      "energy": 0.899,
+      "valence": 0.454,
+      "acousticness": 0.046,
+      "instrumentalness": 0.08,
+      "tempo": 155,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01223",
+    "trackName": "Static Fracture",
+    "artistName": "Sugar Fracture",
+    "artistId": "mockartist-sugar-fracture",
+    "durationMs": 170550,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.611,
+      "energy": 0.941,
+      "valence": 0.568,
+      "acousticness": 0,
+      "instrumentalness": 0,
+      "tempo": 151,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01233",
+    "trackName": "Glass Fracture",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 253241,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.608,
+      "energy": 0.826,
+      "valence": 0.539,
+      "acousticness": 0,
+      "instrumentalness": 0,
+      "tempo": 148,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01243",
+    "trackName": "Chorus Spiral",
+    "artistName": "Overclock Heart",
+    "artistId": "mockartist-overclock-heart",
+    "durationMs": 247238,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.63,
+      "energy": 0.803,
+      "valence": 0.634,
+      "acousticness": 0.001,
+      "instrumentalness": 0,
+      "tempo": 157,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01253",
+    "trackName": "Lantern Fracture",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 269312,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.589,
+      "energy": 0.884,
+      "valence": 0.468,
+      "acousticness": 0.046,
+      "instrumentalness": 0,
+      "tempo": 147,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01263",
+    "trackName": "Room Echo",
+    "artistName": "Pixel Grief",
+    "artistId": "mockartist-pixel-grief",
+    "durationMs": 241581,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.673,
+      "energy": 0.894,
+      "valence": 0.62,
+      "acousticness": 0.046,
+      "instrumentalness": 0.044,
+      "tempo": 156,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01273",
+    "trackName": "Current Ghost",
+    "artistName": "Nano Tears",
+    "artistId": "mockartist-nano-tears",
+    "durationMs": 223387,
+    "genres": [
+      "hyperpop",
+      "glitchcore",
+      "digicore"
+    ],
+    "pool": "baseline",
+    "clusterName": "Hyperpop Static",
+    "audioFeatures": {
+      "danceability": 0.688,
+      "energy": 0.924,
+      "valence": 0.522,
+      "acousticness": 0.025,
+      "instrumentalness": 0.035,
+      "tempo": 153,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01284",
+    "trackName": "Glass Static",
+    "artistName": "Drift State",
+    "artistId": "mockartist-drift-state",
+    "durationMs": 211458,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.626,
+      "energy": 0.483,
+      "valence": 0.148,
+      "acousticness": 0.118,
+      "instrumentalness": 0.858,
+      "tempo": 121,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01294",
+    "trackName": "Lantern Drift",
+    "artistName": "Subterra",
+    "artistId": "mockartist-subterra",
+    "durationMs": 235911,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.583,
+      "energy": 0.385,
+      "valence": 0.353,
+      "acousticness": 0.067,
+      "instrumentalness": 0.868,
+      "tempo": 131,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01304",
+    "trackName": "Field Loop",
+    "artistName": "Drift State",
+    "artistId": "mockartist-drift-state",
+    "durationMs": 235876,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.608,
+      "energy": 0.463,
+      "valence": 0.305,
+      "acousticness": 0.065,
+      "instrumentalness": 0.841,
+      "tempo": 121,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01314",
+    "trackName": "Ember Signal",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 256343,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.465,
+      "energy": 0.361,
+      "valence": 0.242,
+      "acousticness": 0.086,
+      "instrumentalness": 0.905,
+      "tempo": 128,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01324",
+    "trackName": "Glass Spiral",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 178687,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.515,
+      "energy": 0.404,
+      "valence": 0.255,
+      "acousticness": 0.16,
+      "instrumentalness": 0.782,
+      "tempo": 117,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01334",
+    "trackName": "Horizon Loop",
+    "artistName": "Vantablack Room",
+    "artistId": "mockartist-vantablack-room",
+    "durationMs": 264761,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.541,
+      "energy": 0.51,
+      "valence": 0.335,
+      "acousticness": 0.085,
+      "instrumentalness": 0.905,
+      "tempo": 120,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01344",
+    "trackName": "Static Glass",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 168413,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.64,
+      "energy": 0.415,
+      "valence": 0.148,
+      "acousticness": 0.111,
+      "instrumentalness": 0.784,
+      "tempo": 125,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01354",
+    "trackName": "Loop",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 151792,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.559,
+      "energy": 0.509,
+      "valence": 0.312,
+      "acousticness": 0.085,
+      "instrumentalness": 0.92,
+      "tempo": 131,
+      "mode": 0,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01364",
+    "trackName": "Ghost Bone",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 184157,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.531,
+      "energy": 0.412,
+      "valence": 0.179,
+      "acousticness": 0.03,
+      "instrumentalness": 0.85,
+      "tempo": 120,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01374",
+    "trackName": "Bone Shore",
+    "artistName": "Subterra",
+    "artistId": "mockartist-subterra",
+    "durationMs": 207041,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.578,
+      "energy": 0.39,
+      "valence": 0.158,
+      "acousticness": 0.051,
+      "instrumentalness": 0.847,
+      "tempo": 124,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01384",
+    "trackName": "Static Ember",
+    "artistName": "Echo Chassis",
+    "artistId": "mockartist-echo-chassis",
+    "durationMs": 153677,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.626,
+      "energy": 0.517,
+      "valence": 0.223,
+      "acousticness": 0.038,
+      "instrumentalness": 0.858,
+      "tempo": 121,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01394",
+    "trackName": "Static Current",
+    "artistName": "Echo Chassis",
+    "artistId": "mockartist-echo-chassis",
+    "durationMs": 169921,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.512,
+      "energy": 0.499,
+      "valence": 0.336,
+      "acousticness": 0.087,
+      "instrumentalness": 0.815,
+      "tempo": 127,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01404",
+    "trackName": "Tide Lantern",
+    "artistName": "Vantablack Room",
+    "artistId": "mockartist-vantablack-room",
+    "durationMs": 211727,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.542,
+      "energy": 0.531,
+      "valence": 0.179,
+      "acousticness": 0.075,
+      "instrumentalness": 0.796,
+      "tempo": 122,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01414",
+    "trackName": "Fracture Current",
+    "artistName": "Drift State",
+    "artistId": "mockartist-drift-state",
+    "durationMs": 179067,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.518,
+      "energy": 0.413,
+      "valence": 0.262,
+      "acousticness": 0.14,
+      "instrumentalness": 0.811,
+      "tempo": 130,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01424",
+    "trackName": "Ridge Bone",
+    "artistName": "Vantablack Room",
+    "artistId": "mockartist-vantablack-room",
+    "durationMs": 158768,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.555,
+      "energy": 0.377,
+      "valence": 0.323,
+      "acousticness": 0.117,
+      "instrumentalness": 0.837,
+      "tempo": 121,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01434",
+    "trackName": "Ember Bone",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 217930,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.622,
+      "energy": 0.495,
+      "valence": 0.177,
+      "acousticness": 0.048,
+      "instrumentalness": 0.869,
+      "tempo": 126,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01444",
+    "trackName": "Drift Lantern",
+    "artistName": "Drift State",
+    "artistId": "mockartist-drift-state",
+    "durationMs": 241698,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.585,
+      "energy": 0.39,
+      "valence": 0.155,
+      "acousticness": 0.125,
+      "instrumentalness": 0.828,
+      "tempo": 125,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01454",
+    "trackName": "Bloom Shore",
+    "artistName": "Vantablack Room",
+    "artistId": "mockartist-vantablack-room",
+    "durationMs": 151141,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.585,
+      "energy": 0.512,
+      "valence": 0.288,
+      "acousticness": 0.11,
+      "instrumentalness": 0.919,
+      "tempo": 118,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01464",
+    "trackName": "Ghost Fracture",
+    "artistName": "Echo Chassis",
+    "artistId": "mockartist-echo-chassis",
+    "durationMs": 234217,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.488,
+      "energy": 0.451,
+      "valence": 0.215,
+      "acousticness": 0.069,
+      "instrumentalness": 0.834,
+      "tempo": 119,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01474",
+    "trackName": "Chorus Signal",
+    "artistName": "Drift State",
+    "artistId": "mockartist-drift-state",
+    "durationMs": 161609,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.501,
+      "energy": 0.446,
+      "valence": 0.284,
+      "acousticness": 0.101,
+      "instrumentalness": 0.894,
+      "tempo": 130,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01484",
+    "trackName": "Ridge Field",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 255427,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.495,
+      "energy": 0.428,
+      "valence": 0.287,
+      "acousticness": 0.142,
+      "instrumentalness": 0.809,
+      "tempo": 124,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01494",
+    "trackName": "Echo Fade",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 265147,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.558,
+      "energy": 0.381,
+      "valence": 0.28,
+      "acousticness": 0.167,
+      "instrumentalness": 0.83,
+      "tempo": 118,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01504",
+    "trackName": "Orbit Fade",
+    "artistName": "Subterra",
+    "artistId": "mockartist-subterra",
+    "durationMs": 216745,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.569,
+      "energy": 0.486,
+      "valence": 0.316,
+      "acousticness": 0.117,
+      "instrumentalness": 0.806,
+      "tempo": 128,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01514",
+    "trackName": "Wire Tide",
+    "artistName": "Vantablack Room",
+    "artistId": "mockartist-vantablack-room",
+    "durationMs": 250171,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.635,
+      "energy": 0.443,
+      "valence": 0.239,
+      "acousticness": 0.028,
+      "instrumentalness": 0.784,
+      "tempo": 129,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01524",
+    "trackName": "Spiral Glass",
+    "artistName": "Echo Chassis",
+    "artistId": "mockartist-echo-chassis",
+    "durationMs": 183469,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.514,
+      "energy": 0.442,
+      "valence": 0.22,
+      "acousticness": 0.084,
+      "instrumentalness": 0.873,
+      "tempo": 117,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01534",
+    "trackName": "Echo Field",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 221567,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.634,
+      "energy": 0.458,
+      "valence": 0.24,
+      "acousticness": 0.068,
+      "instrumentalness": 0.803,
+      "tempo": 119,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01544",
+    "trackName": "Loop Lantern",
+    "artistName": "Subterra",
+    "artistId": "mockartist-subterra",
+    "durationMs": 199610,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.614,
+      "energy": 0.506,
+      "valence": 0.189,
+      "acousticness": 0.084,
+      "instrumentalness": 0.839,
+      "tempo": 126,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01554",
+    "trackName": "Signal Field",
+    "artistName": "Subterra",
+    "artistId": "mockartist-subterra",
+    "durationMs": 155939,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.584,
+      "energy": 0.502,
+      "valence": 0.186,
+      "acousticness": 0.065,
+      "instrumentalness": 0.842,
+      "tempo": 121,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01564",
+    "trackName": "Room Wire",
+    "artistName": "Echo Chassis",
+    "artistId": "mockartist-echo-chassis",
+    "durationMs": 176186,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.461,
+      "energy": 0.416,
+      "valence": 0.271,
+      "acousticness": 0.099,
+      "instrumentalness": 0.799,
+      "tempo": 129,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01574",
+    "trackName": "Fracture Horizon",
+    "artistName": "Subterra",
+    "artistId": "mockartist-subterra",
+    "durationMs": 174400,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.576,
+      "energy": 0.46,
+      "valence": 0.247,
+      "acousticness": 0.051,
+      "instrumentalness": 0.817,
+      "tempo": 120,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01584",
+    "trackName": "Bone Shore",
+    "artistName": "Low Orbit Choir",
+    "artistId": "mockartist-low-orbit-choir",
+    "durationMs": 207323,
+    "genres": [
+      "ambient techno",
+      "minimal techno",
+      "downtempo"
+    ],
+    "pool": "reserve",
+    "clusterName": "Deep Ambient Techno",
+    "audioFeatures": {
+      "danceability": 0.515,
+      "energy": 0.429,
+      "valence": 0.342,
+      "acousticness": 0.075,
+      "instrumentalness": 0.876,
+      "tempo": 122,
+      "mode": 1,
+      "key": 0
+    }
+  },
+  {
+    "spotifyTrackId": "mock01595",
+    "trackName": "Echo Field",
+    "artistName": "Harpsichord Motel",
+    "artistId": "mockartist-harpsichord-motel",
+    "durationMs": 207809,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.355,
+      "energy": 0.346,
+      "valence": 0.43,
+      "acousticness": 0.651,
+      "instrumentalness": 0.204,
+      "tempo": 112,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01605",
+    "trackName": "Drift Loop",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 267060,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.434,
+      "energy": 0.358,
+      "valence": 0.424,
+      "acousticness": 0.724,
+      "instrumentalness": 0.208,
+      "tempo": 109,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01615",
+    "trackName": "Field Chorus",
+    "artistName": "Harpsichord Motel",
+    "artistId": "mockartist-harpsichord-motel",
+    "durationMs": 152107,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.339,
+      "energy": 0.427,
+      "valence": 0.591,
+      "acousticness": 0.621,
+      "instrumentalness": 0.158,
+      "tempo": 103,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01625",
+    "trackName": "Frost Loop",
+    "artistName": "String Section Zero",
+    "artistId": "mockartist-string-section-zero",
+    "durationMs": 248371,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.424,
+      "energy": 0.416,
+      "valence": 0.514,
+      "acousticness": 0.67,
+      "instrumentalness": 0.207,
+      "tempo": 104,
+      "mode": 1,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock01635",
+    "trackName": "Ghost Bloom",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 257455,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.457,
+      "energy": 0.359,
+      "valence": 0.59,
+      "acousticness": 0.666,
+      "instrumentalness": 0.211,
+      "tempo": 105,
+      "mode": 0,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01645",
+    "trackName": "Wire Loop",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 151860,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.446,
+      "energy": 0.425,
+      "valence": 0.506,
+      "acousticness": 0.616,
+      "instrumentalness": 0.167,
+      "tempo": 110,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01655",
+    "trackName": "Orbit Drift",
+    "artistName": "The Ornamented Room",
+    "artistId": "mockartist-the-ornamented-room",
+    "durationMs": 239733,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.423,
+      "energy": 0.302,
+      "valence": 0.589,
+      "acousticness": 0.676,
+      "instrumentalness": 0.142,
+      "tempo": 110,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01665",
+    "trackName": "Loop Drift",
+    "artistName": "Harpsichord Motel",
+    "artistId": "mockartist-harpsichord-motel",
+    "durationMs": 167778,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.453,
+      "energy": 0.264,
+      "valence": 0.509,
+      "acousticness": 0.699,
+      "instrumentalness": 0.269,
+      "tempo": 106,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01675",
+    "trackName": "Static Lantern",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 181112,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.417,
+      "energy": 0.425,
+      "valence": 0.572,
+      "acousticness": 0.66,
+      "instrumentalness": 0.236,
+      "tempo": 104,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01685",
+    "trackName": "Frost Chorus",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 234511,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.432,
+      "energy": 0.342,
+      "valence": 0.463,
+      "acousticness": 0.616,
+      "instrumentalness": 0.245,
+      "tempo": 100,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01695",
+    "trackName": "Loop Night",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 249375,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.363,
+      "energy": 0.339,
+      "valence": 0.49,
+      "acousticness": 0.638,
+      "instrumentalness": 0.194,
+      "tempo": 99,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01705",
+    "trackName": "Glass Chorus",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 159620,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.432,
+      "energy": 0.335,
+      "valence": 0.559,
+      "acousticness": 0.739,
+      "instrumentalness": 0.158,
+      "tempo": 97,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock01715",
+    "trackName": "Shore Current",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 206142,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.475,
+      "energy": 0.419,
+      "valence": 0.421,
+      "acousticness": 0.707,
+      "instrumentalness": 0.218,
+      "tempo": 110,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock01725",
+    "trackName": "Signal Static",
+    "artistName": "The Ornamented Room",
+    "artistId": "mockartist-the-ornamented-room",
+    "durationMs": 264598,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.349,
+      "energy": 0.305,
+      "valence": 0.453,
+      "acousticness": 0.748,
+      "instrumentalness": 0.218,
+      "tempo": 108,
+      "mode": 1,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock01735",
+    "trackName": "Echo Room",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 200310,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.441,
+      "energy": 0.386,
+      "valence": 0.443,
+      "acousticness": 0.696,
+      "instrumentalness": 0.246,
+      "tempo": 107,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01745",
+    "trackName": "Frost Ghost",
+    "artistName": "Harpsichord Motel",
+    "artistId": "mockartist-harpsichord-motel",
+    "durationMs": 205671,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.443,
+      "energy": 0.4,
+      "valence": 0.545,
+      "acousticness": 0.637,
+      "instrumentalness": 0.159,
+      "tempo": 111,
+      "mode": 1,
+      "key": 6
+    }
+  },
+  {
+    "spotifyTrackId": "mock01755",
+    "trackName": "Hollow Field",
+    "artistName": "The Ornamented Room",
+    "artistId": "mockartist-the-ornamented-room",
+    "durationMs": 229852,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.362,
+      "energy": 0.406,
+      "valence": 0.483,
+      "acousticness": 0.65,
+      "instrumentalness": 0.179,
+      "tempo": 96,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01765",
+    "trackName": "Hollow Static",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 157940,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.355,
+      "energy": 0.401,
+      "valence": 0.547,
+      "acousticness": 0.752,
+      "instrumentalness": 0.156,
+      "tempo": 103,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01775",
+    "trackName": "Chorus Loop",
+    "artistName": "String Section Zero",
+    "artistId": "mockartist-string-section-zero",
+    "durationMs": 255523,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.487,
+      "energy": 0.28,
+      "valence": 0.46,
+      "acousticness": 0.716,
+      "instrumentalness": 0.22,
+      "tempo": 106,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01785",
+    "trackName": "Shore Static",
+    "artistName": "String Section Zero",
+    "artistId": "mockartist-string-section-zero",
+    "durationMs": 229734,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.387,
+      "energy": 0.364,
+      "valence": 0.541,
+      "acousticness": 0.745,
+      "instrumentalness": 0.244,
+      "tempo": 101,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01795",
+    "trackName": "Spiral Ridge",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 242988,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.442,
+      "energy": 0.391,
+      "valence": 0.559,
+      "acousticness": 0.695,
+      "instrumentalness": 0.155,
+      "tempo": 99,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01805",
+    "trackName": "Room Echo",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 269389,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.453,
+      "energy": 0.266,
+      "valence": 0.426,
+      "acousticness": 0.626,
+      "instrumentalness": 0.163,
+      "tempo": 112,
+      "mode": 0,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01815",
+    "trackName": "Current Lantern",
+    "artistName": "The Ornamented Room",
+    "artistId": "mockartist-the-ornamented-room",
+    "durationMs": 171964,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.474,
+      "energy": 0.31,
+      "valence": 0.456,
+      "acousticness": 0.607,
+      "instrumentalness": 0.205,
+      "tempo": 107,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01825",
+    "trackName": "Ridge Echo",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 176421,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.444,
+      "energy": 0.369,
+      "valence": 0.57,
+      "acousticness": 0.679,
+      "instrumentalness": 0.23,
+      "tempo": 110,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock01835",
+    "trackName": "Fracture Ridge",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 205615,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.464,
+      "energy": 0.424,
+      "valence": 0.469,
+      "acousticness": 0.68,
+      "instrumentalness": 0.16,
+      "tempo": 101,
+      "mode": 1,
+      "key": 7
+    }
+  },
+  {
+    "spotifyTrackId": "mock01845",
+    "trackName": "Bone Lantern",
+    "artistName": "Harpsichord Motel",
+    "artistId": "mockartist-harpsichord-motel",
+    "durationMs": 247745,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.479,
+      "energy": 0.349,
+      "valence": 0.519,
+      "acousticness": 0.658,
+      "instrumentalness": 0.245,
+      "tempo": 99,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock01855",
+    "trackName": "Static Wire",
+    "artistName": "Velvet Cello Club",
+    "artistId": "mockartist-velvet-cello-club",
+    "durationMs": 168797,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.326,
+      "energy": 0.413,
+      "valence": 0.582,
+      "acousticness": 0.652,
+      "instrumentalness": 0.158,
+      "tempo": 106,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01865",
+    "trackName": "Ridge Lantern",
+    "artistName": "The Ornamented Room",
+    "artistId": "mockartist-the-ornamented-room",
+    "durationMs": 242491,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.326,
+      "energy": 0.389,
+      "valence": 0.495,
+      "acousticness": 0.709,
+      "instrumentalness": 0.196,
+      "tempo": 100,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01875",
+    "trackName": "Haze Static",
+    "artistName": "Powdered Wig Riot",
+    "artistId": "mockartist-powdered-wig-riot",
+    "durationMs": 224522,
+    "genres": [
+      "baroque pop",
+      "chamber folk",
+      "art pop"
+    ],
+    "pool": "reserve",
+    "clusterName": "Baroque Chamber Pop",
+    "audioFeatures": {
+      "danceability": 0.351,
+      "energy": 0.433,
+      "valence": 0.596,
+      "acousticness": 0.616,
+      "instrumentalness": 0.128,
+      "tempo": 107,
+      "mode": 1,
+      "key": 8
+    }
+  },
+  {
+    "spotifyTrackId": "mock01886",
+    "trackName": "Frost Bloom",
+    "artistName": "Sandstorm Riff",
+    "artistId": "mockartist-sandstorm-riff",
+    "durationMs": 157127,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.542,
+      "energy": 0.739,
+      "valence": 0.467,
+      "acousticness": 0.143,
+      "instrumentalness": 0.415,
+      "tempo": 110,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock01896",
+    "trackName": "Wire Drift",
+    "artistName": "Sandstorm Riff",
+    "artistId": "mockartist-sandstorm-riff",
+    "durationMs": 259620,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.438,
+      "energy": 0.69,
+      "valence": 0.449,
+      "acousticness": 0.147,
+      "instrumentalness": 0.373,
+      "tempo": 114,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01906",
+    "trackName": "Hollow Glass",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 204391,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.545,
+      "energy": 0.721,
+      "valence": 0.373,
+      "acousticness": 0.146,
+      "instrumentalness": 0.297,
+      "tempo": 105,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01916",
+    "trackName": "Haze Spiral",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 217805,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.541,
+      "energy": 0.781,
+      "valence": 0.395,
+      "acousticness": 0.217,
+      "instrumentalness": 0.38,
+      "tempo": 103,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01926",
+    "trackName": "Fracture Ghost",
+    "artistName": "Mirage Highway",
+    "artistId": "mockartist-mirage-highway",
+    "durationMs": 203235,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.487,
+      "energy": 0.721,
+      "valence": 0.476,
+      "acousticness": 0.198,
+      "instrumentalness": 0.358,
+      "tempo": 103,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01936",
+    "trackName": "Ridge Horizon",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 235377,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.446,
+      "energy": 0.767,
+      "valence": 0.434,
+      "acousticness": 0.225,
+      "instrumentalness": 0.385,
+      "tempo": 110,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01946",
+    "trackName": "Lantern Signal",
+    "artistName": "Canyon Feedback",
+    "artistId": "mockartist-canyon-feedback",
+    "durationMs": 159031,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.532,
+      "energy": 0.834,
+      "valence": 0.295,
+      "acousticness": 0.145,
+      "instrumentalness": 0.345,
+      "tempo": 100,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock01956",
+    "trackName": "Signal Frost",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 163063,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.514,
+      "energy": 0.684,
+      "valence": 0.312,
+      "acousticness": 0.172,
+      "instrumentalness": 0.395,
+      "tempo": 110,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock01966",
+    "trackName": "Horizon Drift",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 225928,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.535,
+      "energy": 0.761,
+      "valence": 0.305,
+      "acousticness": 0.151,
+      "instrumentalness": 0.302,
+      "tempo": 110,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01976",
+    "trackName": "Current Wire",
+    "artistName": "Dust Chapel",
+    "artistId": "mockartist-dust-chapel",
+    "durationMs": 248872,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.55,
+      "energy": 0.795,
+      "valence": 0.385,
+      "acousticness": 0.231,
+      "instrumentalness": 0.409,
+      "tempo": 115,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock01986",
+    "trackName": "Ridge Signal",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 182444,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.499,
+      "energy": 0.817,
+      "valence": 0.484,
+      "acousticness": 0.167,
+      "instrumentalness": 0.318,
+      "tempo": 107,
+      "mode": 0,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock01996",
+    "trackName": "Horizon Static",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 165996,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.42,
+      "energy": 0.691,
+      "valence": 0.41,
+      "acousticness": 0.166,
+      "instrumentalness": 0.291,
+      "tempo": 101,
+      "mode": 1,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock02006",
+    "trackName": "Horizon Wire",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 164276,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.503,
+      "energy": 0.755,
+      "valence": 0.318,
+      "acousticness": 0.227,
+      "instrumentalness": 0.326,
+      "tempo": 111,
+      "mode": 0,
+      "key": 1
+    }
+  },
+  {
+    "spotifyTrackId": "mock02016",
+    "trackName": "Orbit Tide",
+    "artistName": "Canyon Feedback",
+    "artistId": "mockartist-canyon-feedback",
+    "durationMs": 256133,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.547,
+      "energy": 0.708,
+      "valence": 0.358,
+      "acousticness": 0.273,
+      "instrumentalness": 0.33,
+      "tempo": 115,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock02026",
+    "trackName": "Echo Night",
+    "artistName": "Sandstorm Riff",
+    "artistId": "mockartist-sandstorm-riff",
+    "durationMs": 167215,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.536,
+      "energy": 0.773,
+      "valence": 0.296,
+      "acousticness": 0.178,
+      "instrumentalness": 0.289,
+      "tempo": 112,
+      "mode": 1,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock02036",
+    "trackName": "Horizon Bone",
+    "artistName": "Dust Chapel",
+    "artistId": "mockartist-dust-chapel",
+    "durationMs": 250466,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.455,
+      "energy": 0.797,
+      "valence": 0.357,
+      "acousticness": 0.219,
+      "instrumentalness": 0.337,
+      "tempo": 106,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock02046",
+    "trackName": "Frost Ghost",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 247516,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.562,
+      "energy": 0.808,
+      "valence": 0.448,
+      "acousticness": 0.234,
+      "instrumentalness": 0.325,
+      "tempo": 102,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock02056",
+    "trackName": "Season Hollow",
+    "artistName": "Mirage Highway",
+    "artistId": "mockartist-mirage-highway",
+    "durationMs": 222411,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.526,
+      "energy": 0.814,
+      "valence": 0.5,
+      "acousticness": 0.252,
+      "instrumentalness": 0.369,
+      "tempo": 103,
+      "mode": 1,
+      "key": 2
+    }
+  },
+  {
+    "spotifyTrackId": "mock02066",
+    "trackName": "Current Room",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 186509,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.542,
+      "energy": 0.815,
+      "valence": 0.347,
+      "acousticness": 0.213,
+      "instrumentalness": 0.297,
+      "tempo": 112,
+      "mode": 1,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock02076",
+    "trackName": "Bone Ghost",
+    "artistName": "Mirage Highway",
+    "artistId": "mockartist-mirage-highway",
+    "durationMs": 184845,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.492,
+      "energy": 0.785,
+      "valence": 0.357,
+      "acousticness": 0.225,
+      "instrumentalness": 0.385,
+      "tempo": 101,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock02086",
+    "trackName": "Loop Bone",
+    "artistName": "Dust Chapel",
+    "artistId": "mockartist-dust-chapel",
+    "durationMs": 230983,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.52,
+      "energy": 0.805,
+      "valence": 0.423,
+      "acousticness": 0.178,
+      "instrumentalness": 0.31,
+      "tempo": 112,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock02096",
+    "trackName": "Hollow Drift",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 241467,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.445,
+      "energy": 0.69,
+      "valence": 0.502,
+      "acousticness": 0.129,
+      "instrumentalness": 0.381,
+      "tempo": 111,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock02106",
+    "trackName": "Current Field",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 232245,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.456,
+      "energy": 0.728,
+      "valence": 0.363,
+      "acousticness": 0.209,
+      "instrumentalness": 0.394,
+      "tempo": 109,
+      "mode": 1,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock02116",
+    "trackName": "Field Current",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 221603,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.524,
+      "energy": 0.832,
+      "valence": 0.321,
+      "acousticness": 0.17,
+      "instrumentalness": 0.299,
+      "tempo": 112,
+      "mode": 0,
+      "key": 3
+    }
+  },
+  {
+    "spotifyTrackId": "mock02126",
+    "trackName": "Fracture Tide",
+    "artistName": "Heatwave Coyote",
+    "artistId": "mockartist-heatwave-coyote",
+    "durationMs": 157428,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.42,
+      "energy": 0.817,
+      "valence": 0.5,
+      "acousticness": 0.181,
+      "instrumentalness": 0.415,
+      "tempo": 107,
+      "mode": 0,
+      "key": 4
+    }
+  },
+  {
+    "spotifyTrackId": "mock02136",
+    "trackName": "Night Bone",
+    "artistName": "Sandstorm Riff",
+    "artistId": "mockartist-sandstorm-riff",
+    "durationMs": 217193,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.424,
+      "energy": 0.748,
+      "valence": 0.399,
+      "acousticness": 0.172,
+      "instrumentalness": 0.385,
+      "tempo": 105,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock02146",
+    "trackName": "Fracture Bloom",
+    "artistName": "Dust Chapel",
+    "artistId": "mockartist-dust-chapel",
+    "durationMs": 191589,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.454,
+      "energy": 0.72,
+      "valence": 0.325,
+      "acousticness": 0.203,
+      "instrumentalness": 0.41,
+      "tempo": 103,
+      "mode": 0,
+      "key": 5
+    }
+  },
+  {
+    "spotifyTrackId": "mock02156",
+    "trackName": "Ridge Loop",
+    "artistName": "Sandstorm Riff",
+    "artistId": "mockartist-sandstorm-riff",
+    "durationMs": 171633,
+    "genres": [
+      "desert rock",
+      "psych rock",
+      "stoner rock"
+    ],
+    "pool": "reserve",
+    "clusterName": "Desert Psych Rock",
+    "audioFeatures": {
+      "danceability": 0.392,
+      "energy": 0.714,
+      "valence": 0.331,
+      "acousticness": 0.228,
+      "instrumentalness": 0.414,
+      "tempo": 101,
+      "mode": 0,
+      "key": 3
+    }
+  }
+]

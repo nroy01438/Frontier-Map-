@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                String   @id @default(cuid())
+  spotifyId         String   @unique
+  displayName       String?
+  email             String?
+  accessToken       String   @db.Text
+  refreshToken      String   @db.Text
+  tokenExpiresAt    DateTime
+  expeditionsPaused Boolean  @default(false)
+  createdAt         DateTime @default(now())
+
+  tracks      TrackFeature[]
+  territories Territory[]
+  expeditions Expedition[]
+  events      TerritoryEvent[]
+}
+
+model TrackFeature {
+  id             String   @id @default(cuid())
+  userId         String
+  user           User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  spotifyTrackId String
+  trackName      String
+  artistName     String
+
+  danceability     Float
+  energy           Float
+  valence          Float
+  acousticness     Float
+  instrumentalness Float
+  tempo            Float
+  mode             Int
+  key              Int
+  genres           String[]
+
+  mapX Float?
+  mapY Float?
+
+  territoryId String?
+  territory   Territory? @relation(fields: [territoryId], references: [id])
+
+  source    String
+  createdAt DateTime @default(now())
+
+  @@unique([userId, spotifyTrackId])
+  @@index([userId])
+  @@index([territoryId])
+}
+
+model Territory {
+  id             String    @id @default(cuid())
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  label          String
+  centroidVector Json
+  status         String
+  claimedAt      DateTime?
+  retreatedAt    DateTime?
+  createdAt      DateTime  @default(now())
+
+  tracks      TrackFeature[]
+  expeditions Expedition[]
+  events      TerritoryEvent[]
+
+  @@index([userId])
+  @@index([userId, status])
+}
+
+model Expedition {
+  id                String    @id @default(cuid())
+  userId            String
+  user              User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  territoryId       String
+  territory         Territory @relation(fields: [territoryId], references: [id])
+  spotifyPlaylistId String
+  trackIds          String[]
+  status            String
+
+  completionRate Float?
+  skipRate       Float?
+  saveCount      Int?
+
+  createdAt  DateTime  @default(now())
+  resolvedAt DateTime?
+
+  @@index([userId])
+  @@index([userId, status])
+}
+
+model TerritoryEvent {
+  id          String    @id @default(cuid())
+  userId      String
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  territoryId String
+  territory   Territory @relation(fields: [territoryId], references: [id])
+  type        String
+  rationale   String    @db.Text
+  createdAt   DateTime  @default(now())
+
+  @@index([userId])
+  @@index([userId, createdAt])
+}
