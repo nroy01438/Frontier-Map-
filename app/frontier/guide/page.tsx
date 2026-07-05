@@ -25,6 +25,27 @@ const LOOP_STEPS = [
   },
 ];
 
+const LEGEND_STATES = [
+  {
+    label: "Claimed",
+    dotClass: "bg-accent",
+    meaning: "Confirmed, permanent part of your taste map.",
+    how: "Built directly from your real listening history, or an expedition into it succeeded — you engaged enough (finished tracks, saved something) that Frontier promoted it.",
+  },
+  {
+    label: "Frontier",
+    dotClass: "bg-zinc-400",
+    meaning: "Currently being tested — the verdict isn't in yet.",
+    how: "An expedition is active into this genre right now. Frontier scouted it but hasn't seen enough engagement data to decide claimed or retreated.",
+  },
+  {
+    label: "Retreated",
+    dotClass: "bg-zinc-600",
+    meaning: "Tried and rejected, permanently.",
+    how: 'An expedition into this genre resolved as a miss (mostly skipped, nothing saved) — or you manually retreated from it in Settings. Its genre tags are durably excluded: Frontier will never scout that genre again.',
+  },
+];
+
 const TEST_STEPS = [
   {
     title: "Log in",
@@ -91,6 +112,28 @@ export default function GuidePage() {
               <div>
                 <h3 className="text-sm font-semibold">{step.title}</h3>
                 <p className="mt-1 text-sm text-muted">{step.body}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div>
+        <h2 className="text-lg font-semibold">Reading the map legend</h2>
+        <p className="mt-2 text-sm text-muted">
+          Every territory dot is in one of three states — they answer &ldquo;how sure is Frontier
+          that this belongs on your map?&rdquo;
+        </p>
+        <div className="mt-4 space-y-3">
+          {LEGEND_STATES.map((state) => (
+            <div key={state.label} className="flex gap-4 rounded-2xl border border-border bg-surface p-4">
+              <div className="flex h-7 w-7 shrink-0 items-center justify-center">
+                <span className={`h-3 w-3 rounded-full ${state.dotClass}`} />
+              </div>
+              <div>
+                <h3 className="text-sm font-semibold">{state.label}</h3>
+                <p className="mt-1 text-sm text-muted">{state.meaning}</p>
+                <p className="mt-1 text-sm text-muted">{state.how}</p>
               </div>
             </div>
           ))}
